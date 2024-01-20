@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	scroll-behavior: smooth;
+}
+picture {
+	display: inline-block;
+}
+body{
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+
+.wrapper{
+    background: #282c34;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.bg-blue{
+    background: #61dafb;;
+}
+.bg-grey{
+    background: #808080;
+}
+.summ{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    border: 1px solid #ffffff54;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.button{
+    /* padding: 30px;
+    border-radius: 50px; */
+    border-radius: 50px;
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.button:hover{
+    box-shadow: 0px 0px 8px #ffffff54;
+}
+.button:active{
+    transform: scale(1.05);
+}
+.calculator{
+    background-color: #151515;
+    display: flex;
+    align-items: flex-end;
+    min-width: 400px;
+    width: 380px;
+    flex-wrap: wrap;
+    padding: 20px 15px 15px;
+    border-radius: 12px;
+    gap: 30px;
+    overflow: hidden;
+    outline: 1px solid #ffffff54;
+
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+
+.custom-button{
+    width: 180px;
+}
