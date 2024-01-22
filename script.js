@@ -2,7 +2,7 @@ let summ = document.querySelector(".summ");
 
 const buttons = Array.from(document.querySelectorAll(".button"));
 // let eventText = e.target.innerText;
-// const summText = innerText;
+// let summText = innerText;
 
 buttons.map((button) => {
   button.addEventListener("click", (event) => {
